@@ -1,1 +1,24 @@
 @import "tailwindcss";
+
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: #FFFFFF;
+  font-family: 'Hanken Grotesk', system-ui, sans-serif;
+  color: #131922;
+}
+
+.mr-nav:hover  { color: #131922 !important; }
+.mr-foot:hover { color: #131922 !important; }
+.mr-primary:hover { background: #1A39B8 !important; }
+.mr-ghost:hover { border-color: #9AA6BC !important; }
+.mr-domain:hover {
+  border-color: #CAD2E0 !important;
+  box-shadow: 0 2px 4px rgba(19,25,34,0.05), 0 6px 16px rgba(19,25,34,0.06) !important;
+}
+.mr-input:focus {
+  border-color: #2348E0 !important;
+  box-shadow: 0 0 0 3px rgba(35,72,224,0.14) !important;
+  outline: none;
+}

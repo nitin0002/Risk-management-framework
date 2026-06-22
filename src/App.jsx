@@ -1,3 +1,5 @@
+import MeridianLanding from './MeridianLanding';
+
 export default function App() {
-  return <>hi</>
+  return <MeridianLanding />;
 }
