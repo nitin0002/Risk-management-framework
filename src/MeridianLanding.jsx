@@ -324,23 +324,23 @@ function TaxonomyTreemap() {
         <div className="ti-treemap">
           <div className="ti-treemap-row" style={{ flex: 1.5 }}>
             <div className="ti-tile" onClick={sel(5)} style={tileStyle(5, 396)}>
-              <Mono size={11} style={{ opacity: 0.8 }}>06</Mono>
-              <div><div style={{ fontSize: 15, fontWeight: 600, lineHeight: 1.2 }}>Socioeconomic &amp; Environmental</div><Mono size={12} style={{ opacity: 0.85, marginTop: 4 }}>396 sub-risks</Mono></div>
+              <Mono size={11} color="#FFFFFF" style={{ opacity: 0.8 }}>06</Mono>
+              <div><div style={{ fontSize: 15, fontWeight: 600, lineHeight: 1.2 }}>Socioeconomic &amp; Environmental</div><Mono size={12} color="#FFFFFF" style={{ opacity: 0.85, marginTop: 4 }}>396 sub-risks</Mono></div>
             </div>
             <div className="ti-tile" onClick={sel(6)} style={tileStyle(6, 294)}>
-              <Mono size={11} style={{ opacity: 0.8 }}>07</Mono>
-              <div><div style={{ fontSize: 15, fontWeight: 600, lineHeight: 1.2 }}>AI System Safety</div><Mono size={12} style={{ opacity: 0.85, marginTop: 4 }}>294 sub-risks</Mono></div>
+              <Mono size={11} color="#FFFFFF" style={{ opacity: 0.8 }}>07</Mono>
+              <div><div style={{ fontSize: 15, fontWeight: 600, lineHeight: 1.2 }}>AI System Safety</div><Mono size={12} color="#FFFFFF" style={{ opacity: 0.85, marginTop: 4 }}>294 sub-risks</Mono></div>
             </div>
             <div className="ti-tile" onClick={sel(0)} style={tileStyle(0, 268)}>
-              <Mono size={11} style={{ opacity: 0.8 }}>01</Mono>
-              <div><div style={{ fontSize: 15, fontWeight: 600, lineHeight: 1.2 }}>Discrimination &amp; Toxicity</div><Mono size={12} style={{ opacity: 0.85, marginTop: 4 }}>268 sub-risks</Mono></div>
+              <Mono size={11} color="#FFFFFF" style={{ opacity: 0.8 }}>01</Mono>
+              <div><div style={{ fontSize: 15, fontWeight: 600, lineHeight: 1.2 }}>Discrimination &amp; Toxicity</div><Mono size={12} color="#FFFFFF" style={{ opacity: 0.85, marginTop: 4 }}>268 sub-risks</Mono></div>
             </div>
           </div>
           <div className="ti-treemap-row" style={{ flex: 1 }}>
             {[[1,224,'02','Privacy & Security'],[3,212,'04','Malicious Actors'],[2,191,'03','Misinformation'],[4,158,'05','Human–Computer Interaction']].map(([di, cnt, num, name]) => (
               <div key={num} className="ti-tile" onClick={sel(di)} style={{ ...tileStyle(di, cnt), padding: 14 }}>
-                <Mono size={11} style={{ opacity: 0.8 }}>{num}</Mono>
-                <div><div style={{ fontSize: 14, fontWeight: 600, lineHeight: 1.2 }}>{name}</div><Mono size={11} style={{ opacity: 0.85, marginTop: 3 }}>{cnt}</Mono></div>
+                <Mono size={11} color="#FFFFFF" style={{ opacity: 0.8 }}>{num}</Mono>
+                <div><div style={{ fontSize: 14, fontWeight: 600, lineHeight: 1.2 }}>{name}</div><Mono size={11} color="#FFFFFF" style={{ opacity: 0.85, marginTop: 3 }}>{cnt}</Mono></div>
               </div>
             ))}
           </div>
